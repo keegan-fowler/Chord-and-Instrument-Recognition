@@ -1,1 +1,4 @@
 # Chord-and-Instrument-Recognition
+This was my Digital Signal Processing Senior project at UCLA. The code above processes individual recorded samples into Mel-Frequency Cepstral Coefficents (MFCC)s and Chroma-Features. Using these 12 and 13 dimensional coefficients the code then performed a supervised k-means collection upon each individual instrument and generated chords. Using these found k-means, the code was then designed to transform live samples and recognize which chord/instrument the sample was closest to. The code then outputted the recognized instrument and chord to the user. Ultimately a 96.02% accuracy was achieved for instrument recognition and a 96.75% accuracy was achieved for chord recognition across 4 different chords and instruments. 
+
+Note: Additional CCS code will be added to this repository as soon as COVID-19 dies down and the UCLA labs become accessible again.
